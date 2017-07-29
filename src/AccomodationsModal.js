@@ -42,7 +42,7 @@ class AccomodationsModal extends Component {
           <li>Abita Springs Brewery - fun tour for fans of beer, 1.5 hours, we recommend the Chimes restaurant while you're in town.</li>
           <li>New Orleans - about 2 hours</li>
         </ul>
-        <p><button onClick={this.props.onClose}>Close Modal</button></p>
+        <p><button onClick={this.props.onClose}>Close</button></p>
       </Modal>
     );
   }

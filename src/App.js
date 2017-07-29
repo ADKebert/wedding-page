@@ -4,8 +4,15 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let modalButtonsStyle = {
+      position: 'absolute',
+      top: '66%',
+      left: '49%',
+      transform: 'translate(-50%, -50%)',
+    }
+
     return (
-      <div>
+      <div style={modalButtonsStyle}>
         <ModalConductor />
       </div>
     )

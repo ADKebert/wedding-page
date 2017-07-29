@@ -12,6 +12,11 @@ class ModalConductor extends Component {
   }
 
   render() {
+    let ulStyle = {
+      display: 'flex',
+      listStyle: 'none',
+    }
+
     console.log(this.state.showModal)
     switch(this.state.showModal) {
       case 'CEREMONYMODAL':
@@ -26,7 +31,7 @@ class ModalConductor extends Component {
       default:
         return(
           <div>
-            <ul>
+            <ul style={ulStyle}>
               <li><button onClick={() => this.openCeremony()}>Ceremony</button></li>
               <li><button onClick={() => this.openAccomodations()}>Accomodations</button></li>
               <li><button onClick={() => this.openRegistry()}>Registry</button></li>

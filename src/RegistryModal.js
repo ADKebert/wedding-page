@@ -11,7 +11,7 @@ class RegistryModal extends Component {
           <li>Awesome thing 2</li>
           <li>Awesome thing 3</li>
         </ul>
-        <p><button onClick={this.props.onClose}>Close Modal</button></p>
+        <p><button onClick={this.props.onClose}>Close</button></p>
       </Modal>
     );
   }

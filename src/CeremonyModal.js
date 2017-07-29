@@ -13,7 +13,7 @@ class CeremonyModal extends Component {
         <p>
           Saturday, March 17, 2018 @ X:XX PM
         </p>
-        <p><button onClick={this.props.onClose}>Close Modal</button></p>
+        <p><button onClick={this.props.onClose}>Close</button></p>
       </Modal>
     );
   }

@@ -1,5 +1,49 @@
+html {
+  background: url(images/park_bench.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+button {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-family: "Bitter",sans-serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  /*color: #fff;
+  background-color: #26aa6e;
+  text-shadow: -1px 1px #1e8e5b;
+  border: 2px solid #fff;*/
+  color: #26aa6e;
+  background-color: #fff;
+  border: 3px solid #26aa6e;
+}
+
+button:hover,
+button.hover {
+  /*background-color: #1c8052;
+  text-shadow: -1px 1px #166540;*/
+  color: #1c8052;
+  border: 3px solid #1c8052;
+}
+
+button:active,
+button.active {
+  /*background-color: #0f492e;
+  text-shadow: -1px 1px #0b3722;*/
+  color: #0f492e;
+  border: 3px solid #0f492e;
+}
+
+button:focus {
+  outline: none
 }
