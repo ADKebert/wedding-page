@@ -19,29 +19,23 @@ button {
   appearance: none;
   box-shadow: none;
   border-radius: 0;
-  /*color: #fff;
-  background-color: #26aa6e;
-  text-shadow: -1px 1px #1e8e5b;
-  border: 2px solid #fff;*/
-  color: #26aa6e;
-  background-color: #fff;
-  border: 3px solid #26aa6e;
+  color: #fff;
+  background-color: #1E3562;
+  text-shadow: -1px 1px #1b3058;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
 
 button:hover,
 button.hover {
-  /*background-color: #1c8052;
-  text-shadow: -1px 1px #166540;*/
-  color: #1c8052;
-  border: 3px solid #1c8052;
+  background-color: #162749;
+  text-shadow: -1px 1px #12213d;
 }
 
 button:active,
 button.active {
-  /*background-color: #0f492e;
-  text-shadow: -1px 1px #0b3722;*/
-  color: #0f492e;
-  border: 3px solid #0f492e;
+  background-color: #12213d;
+  text-shadow: -1px 1px #0f1b32;
 }
 
 button:focus {

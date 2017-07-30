@@ -7,7 +7,7 @@ class App extends Component {
     let modalButtonsStyle = {
       position: 'absolute',
       top: '66%',
-      left: '49%',
+      left: '48%',
       transform: 'translate(-50%, -50%)',
     }
 
