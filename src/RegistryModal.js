@@ -7,7 +7,11 @@ class RegistryModal extends Component {
       <Modal onClose={this.props.onClose}>
         <h1>Registry Modal</h1>
         <ul>
-          <li>Awesome thing 1</li>
+          <li>
+            <a href='https://smile.amazon.com/wedding/shauna-mcbride-alan-kebert-mccomb-march-2018/registry/1G2EGGXDSNVJP'>
+              Amazon Registry
+            </a>
+          </li>
           <li>Awesome thing 2</li>
           <li>Awesome thing 3</li>
         </ul>

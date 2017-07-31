@@ -14,6 +14,7 @@ class AccomodationsModal extends Component {
         <h3>In Town:</h3>
         <ul>
           <li>Upscale Dining - The Caboose Restaurant in downtown McComb</li>
+          <li>Catfish House - Mr. Whiskers</li>
           <li>Mexican - Tortilla Soup near I-55</li>
           <li>Sushi and Hibachi - Kyoto on Delaware Ave.</li>
           <li>Deli - Broma's Deli in Edgewood Mall</li>
@@ -33,13 +34,14 @@ class AccomodationsModal extends Component {
         <h3>In Town:</h3>
         <ul>
           <li>Percy Quinn State park has a walking trail, tennis, and a golf course.</li>
+          <li>Tubing/Canoeing the Bogue Chitto river can be a lot of fun if it's warm enough.</li>
         </ul>
 
         <h3>Travel Required:</h3>
         <ul>
           <li>UA Westbrook 4 Movie Theater in Brookhaven - closest, about 20 mins</li>
           <li>The Grand Movie Theater in Hattiesburg - nicer and more selection, about 70 mins</li>
-          <li>Abita Springs Brewery - fun tour for fans of beer, 1.5 hours, we recommend the Chimes restaurant while you're in town.</li>
+          <li>Abita Springs Brewery - fun tour for fans of beer, 1.5 hours, we recommend The Chimes restaurant while you're in town.</li>
           <li>New Orleans - about 2 hours</li>
         </ul>
         <p><button onClick={this.props.onClose}>Close</button></p>
