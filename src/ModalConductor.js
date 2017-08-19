@@ -12,6 +12,13 @@ class ModalConductor extends Component {
   }
 
   render() {
+    let modalButtonsStyle = {
+      position: 'absolute',
+      top: '66%',
+      left: '48%',
+      transform: 'translate(-50%, -50%)',
+    }
+
     let ulStyle = {
       display: 'flex',
       listStyle: 'none',
@@ -30,7 +37,7 @@ class ModalConductor extends Component {
 
       default:
         return(
-          <div>
+          <div style={modalButtonsStyle}>
             <ul style={ulStyle}>
               <li><button onClick={() => this.openCeremony()}>Ceremony</button></li>
               <li><button onClick={() => this.openAccomodations()}>Accomodations</button></li>

@@ -11,8 +11,9 @@ body {
 
 button {
   display: inline-block;
+  min-width: 120px;
   margin: 0 20px 0 0;
-  padding: 5px 10px;
+  padding: 6px 10px;
   font-size: 40px;
   font-family: 'Tangerine',sans-serif;
   font-weight: 100;
@@ -20,10 +21,10 @@ button {
   appearance: none;
   box-shadow: none;
   border-radius: 0;
-  color: #fff;
+  color: #fcfcf5;
   background-color: #1E3562;
   text-shadow: -1px 1px #1b3058;
-  border: 2px solid #fff;
+  border: 2px solid #fcfcf5;
   border-radius: 10px;
 }
 
@@ -41,4 +42,12 @@ button.active {
 
 button:focus {
   outline: none
+}
+
+.center-align {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
