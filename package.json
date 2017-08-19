@@ -2,6 +2,7 @@
   "name": "wedding-page",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://ADKebert.github.io/wedding-page",
   "devDependencies": {
     "react-scripts": "1.0.10"
   },
