@@ -1,6 +1,7 @@
 html {
   background: url(images/park_bench.jpg) no-repeat center center fixed;
   background-size: cover;
+  min-height: 100%;
 }
 
 body {
