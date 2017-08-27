@@ -12,18 +12,6 @@ class ModalConductor extends Component {
   }
 
   render() {
-    let modalButtonsStyle = {
-      position: 'absolute',
-      top: '66%',
-      left: '48%',
-      transform: 'translate(-50%, -50%)',
-    }
-
-    let ulStyle = {
-      display: 'flex',
-      listStyle: 'none',
-    }
-
     console.log(this.state.showModal)
     switch(this.state.showModal) {
       case 'CEREMONYMODAL':
@@ -37,8 +25,8 @@ class ModalConductor extends Component {
 
       default:
         return(
-          <div style={modalButtonsStyle}>
-            <ul style={ulStyle}>
+          <div className='modal-selector'>
+            <ul className='nav-buttons'>
               <li><button onClick={() => this.openCeremony()}>Ceremony</button></li>
               <li><button onClick={() => this.openAccomodations()}>Accomodations</button></li>
               <li><button onClick={() => this.openRegistry()}>Registry</button></li>
