@@ -9,9 +9,15 @@ class AccomodationsModal extends Component {
           <div>
             <h1>Accomodations in McComb</h1>
             <h2>Hotels</h2>
+            <h3>Hampton Inn and Suites</h3>
+            <p>601-249-4116</p>
+            <p>109 Manisha Drive, McComb, MS 39648</p>
             <p>
-              here's the info for hotels in McComb
+            We reserved some rooms at a group rate under the name McBride. You will need to book your hotel reservation by March 2, 2018 if you want the group rate.
             </p>
+            <h3>Holiday Inn Express</h3>
+            <p>601-684-5200</p>
+            <p>105 Holiday Lane, McComb, MS 39648</p>
             <h2>Restaurants</h2>
             <h3>In Town:</h3>
             <ul>

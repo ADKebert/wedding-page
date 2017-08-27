@@ -13,7 +13,7 @@ class CeremonyModal extends Component {
             <p>McComb, MS 39648</p>
             <h2>When</h2>
             <p>
-              Saturday, March 17, 2018 @ X:XX PM
+              Saturday, March 17, 2018 @ 4:00 PM
             </p>
           </div>
           <p><button onClick={this.props.onClose}>Close</button></p>
