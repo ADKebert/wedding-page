@@ -14,7 +14,11 @@ class RegistryModal extends Component {
                   Amazon Registry
                 </a>
               </li>
-              <li>Honeyfund</li>
+              <li>
+                <a href='https://www.honeyfund.com/wedding/AlanandShaunaGetMarried'>
+                  Honeyfund
+                </a>
+              </li>
             </ul>
           </div>
           <p><button onClick={this.props.onClose}>Close</button></p>

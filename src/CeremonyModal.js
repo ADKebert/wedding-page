@@ -15,6 +15,9 @@ class CeremonyModal extends Component {
             <p>
               Saturday, March 17, 2018 @ 4:00 PM
             </p>
+            <h3>
+              Reception and Dinner to follow @ 5:00 PM
+            </h3>
           </div>
           <p><button onClick={this.props.onClose}>Close</button></p>
         </div>
