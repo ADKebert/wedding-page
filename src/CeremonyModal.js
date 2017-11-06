@@ -16,7 +16,10 @@ class CeremonyModal extends Component {
               Saturday, March 17, 2018 @ 4:00 PM
             </p>
             <h3>
-              Reception and Dinner to follow @ 5:00 PM
+              Reception and Dinner to Follow
+            </h3>
+            <h3>
+              Dressy Casual Attire
             </h3>
           </div>
           <p><button onClick={this.props.onClose}>Close</button></p>

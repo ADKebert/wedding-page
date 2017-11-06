@@ -8,13 +8,15 @@ class RegistryModal extends Component {
         <div className='center-align'>
           <div>
             <h1>Registry Info</h1>
-            <ul>
-              <li>
+            <ul className='registry-ul'>
+              <li className='registry-link'>
+                <p>Wedding gift registry at</p>
                 <a href='https://smile.amazon.com/wedding/shauna-mcbride-alan-kebert-mccomb-march-2018/registry/1G2EGGXDSNVJP'>
-                  Amazon Registry
+                  Amazon
                 </a>
               </li>
-              <li>
+              <li className='registry-link'>
+                <p>Or contribute to our honeymoon at</p>
                 <a href='https://www.honeyfund.com/wedding/AlanandShaunaGetMarried'>
                   Honeyfund
                 </a>

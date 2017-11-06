@@ -45,6 +45,20 @@ button:focus {
   outline: none
 }
 
+h3 {
+  text-align: center;
+}
+
+.registry-ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.registry-link {
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .center-align {
   min-height: inherit;
   display: flex;
